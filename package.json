@@ -1,0 +1,24 @@
+{
+  "name": "backend-server",
+  "version": "1.0.0",
+  "description": "first time using node and trying to create some servers",
+  "main": "FirstServer.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysqli": "^3.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrosv20/desafioNode.git"
+  },
+  "author": "PedroVargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrosv20/desafioNode/issues"
+  },
+  "homepage": "https://github.com/pedrosv20/desafioNode#readme"
+}
