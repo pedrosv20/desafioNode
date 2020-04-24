@@ -26,6 +26,10 @@ con.connect(function(error) {
     else console.log("connected");
 });
 //Seleciona usuarios pelo nomeclea
+app.get('/',function(req,res) {
+    res.send("TEEEEEEy");
+})
+
 app.get('/listaReflection',function(req,res) {
   try {
     con.query("SELECT * FROM reflection",function (error,rows,fields) {
