@@ -28,7 +28,7 @@ con.connect(function(error) {
 //Seleciona usuarios pelo nomeclea
 app.get('/',function(req,res) {
     res.send("TEEEEEEy");
-})
+});
 
 app.get('/listaReflection',function(req,res) {
   try {
