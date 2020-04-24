@@ -2,7 +2,7 @@
   "name": "backend-server",
   "version": "1.0.0",
   "description": "first time using node and trying to create some servers",
-  "main": "FirstServer.js",
+  "main": "HelloWorld.js",
   "dependencies": {
     "express": "^4.17.1",
     "mysqli": "^3.0.11"
